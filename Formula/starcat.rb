@@ -7,20 +7,20 @@ class Starcat < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/starcat-app/starcat-cli/releases/download/v1.0.0/starcat_v1.0.0_darwin_arm64.tar.gz"
-      sha256 "43ddffcb7e498da16d7e049c8287c8ce35da69cfeb04e71fdfbe5809b8b3928e"
+      sha256 "25299af4146d29243b2f6122e6f92cf64a1b9f38b57efe37ed95018fd3b6a067"
     else
       url "https://github.com/starcat-app/starcat-cli/releases/download/v1.0.0/starcat_v1.0.0_darwin_amd64.tar.gz"
-      sha256 "a4fe0db8ae45edaa71640d1b09e1ea2f5c43a0a0b7d54f648a65a03bc6738b33"
+      sha256 "9d1c35b1b3f360061e66eaace8ed12bf1390d42f6956972c84bd47638dc682a5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/starcat-app/starcat-cli/releases/download/v1.0.0/starcat_v1.0.0_linux_arm64.tar.gz"
-      sha256 "ce77a717bb5ef6b7a01c524a9ca121183716679c465e2a6177660f1d44d9e7b5"
+      sha256 "22d27bc71dbda5046890ffcc26fd80262824a9a7d39559d79fd802093b5ff847"
     else
       url "https://github.com/starcat-app/starcat-cli/releases/download/v1.0.0/starcat_v1.0.0_linux_amd64.tar.gz"
-      sha256 "8c449799d18d21a5942cd5752b05a3abcccce638c972184e6c50a956bd1115ea"
+      sha256 "21fa49cf693a3c3170d88d118bde4ac537ed52d1f02e13225a72bad77925c71f"
     end
   end
 
