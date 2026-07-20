@@ -1,8 +1,8 @@
 class Starcat < Formula
   desc "Cross-platform CLI and MCP bridge for Starcat"
   homepage "https://github.com/starcat-app/starcat-cli"
-  license "MIT"
   version "1.0.0"
+  license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
