@@ -1,26 +1,26 @@
 class Starcat < Formula
   desc "Cross-platform CLI and MCP bridge for Starcat"
   homepage "https://github.com/starcat-app/starcat-cli"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/starcat-app/starcat-cli/releases/download/v1.0.0/starcat_v1.0.0_darwin_arm64.tar.gz"
-      sha256 "25299af4146d29243b2f6122e6f92cf64a1b9f38b57efe37ed95018fd3b6a067"
+      url "https://github.com/starcat-app/starcat-cli/releases/download/v1.1.0/starcat_v1.1.0_darwin_arm64.tar.gz"
+      sha256 "1458aa9aff9c56c004ba0e790ca90fc66ba34e80b42c1221ab0c9664d9d5af41"
     else
-      url "https://github.com/starcat-app/starcat-cli/releases/download/v1.0.0/starcat_v1.0.0_darwin_amd64.tar.gz"
-      sha256 "9d1c35b1b3f360061e66eaace8ed12bf1390d42f6956972c84bd47638dc682a5"
+      url "https://github.com/starcat-app/starcat-cli/releases/download/v1.1.0/starcat_v1.1.0_darwin_amd64.tar.gz"
+      sha256 "5c901f6db7e43ad13eb5dfcfd04b052e5463a82fbcd8f5436d87600846b26b30"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/starcat-app/starcat-cli/releases/download/v1.0.0/starcat_v1.0.0_linux_arm64.tar.gz"
-      sha256 "22d27bc71dbda5046890ffcc26fd80262824a9a7d39559d79fd802093b5ff847"
+      url "https://github.com/starcat-app/starcat-cli/releases/download/v1.1.0/starcat_v1.1.0_linux_arm64.tar.gz"
+      sha256 "82aa7c8e1b03c21543c1088f9147cac824fdbb2f352582287541f9f20fd069a2"
     else
-      url "https://github.com/starcat-app/starcat-cli/releases/download/v1.0.0/starcat_v1.0.0_linux_amd64.tar.gz"
-      sha256 "21fa49cf693a3c3170d88d118bde4ac537ed52d1f02e13225a72bad77925c71f"
+      url "https://github.com/starcat-app/starcat-cli/releases/download/v1.1.0/starcat_v1.1.0_linux_amd64.tar.gz"
+      sha256 "20cfaab43e42c30841f8a98642fe21efcd08ccf0cfd43341dd907cddfe923380"
     end
   end
 
