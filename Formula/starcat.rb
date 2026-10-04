@@ -1,7 +1,6 @@
 class Starcat < Formula
   desc "Cross-platform CLI and MCP bridge for Starcat"
   homepage "https://github.com/starcat-app/starcat-cli"
-  version "1.1.1"
   license "MIT"
 
   on_macos do
